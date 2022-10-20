@@ -10,6 +10,8 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
+
+
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
       {%- for link in site.navbar-links -%}
@@ -46,6 +48,7 @@
       {% include {{ file }} %}
     {% endfor %}
   {% endif %}
+
 
   {% if site.avatar and page.show-avatar != false %}
     <div class="avatar-container">
